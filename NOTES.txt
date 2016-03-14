@@ -1,0 +1,32 @@
+﻿TODO ==========================
+
+Ajout panier 
+gestion commande
+backend REST
+Inscription
+Interface admin ajout produit Téléphone
+
+DO
+================================
+Paginating Through Client-Side Data
+
+
+
+https://docs.angularjs.org/tutorial
+
+
+
+Start the local webserver by running:
+> npm start
+browse to the application
+http://localhost:8000/app/index.html
+
+to run the unit tests , 
+KARMA  is the test runner for unit tests
+> npm test
+
+to run e2e tests, test DOM manipulation (use Selenium standalone)
+we use Protractor to run end-to-end tests
+> npm run update-webdriver
+
+

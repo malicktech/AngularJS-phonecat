@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="header">
+        <h1>Google Phone Gallery <small>AngularJS Tutorial - List</small></h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <!--Sidebar content-->
+            Search:
+            <input ng-model="query"> Sort by :
+            <select ng-model="orderProp">
+                <option value="name">Alphabetical</option>
+                <option value="age">Newest</option>
+            </select>
+            Show :
+            <select ng-model="usersPerPage" ng-options="size for size in pageSizeList">
+            </select>
+            elements
+        </div>
+    </div>
+    <BR/>
+    <!-- <div class="row">
+        </div> -->
+    <!--Body content-->
+    <section class="row">
+        <div class="col-lg-6 col-md-6 col-sm-8 col-xm-8" ng-repeat="phone in phones | ClientSidePaginatior: currentPage:usersPerPage | filter:query | orderBy:orderProp">
+            <div class="thumbnail">
+                <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}"></a>
+                <div class="caption">
+                    <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
+                    <p>{{phone.snippet}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row text-center">
+        <div class="col-md-8">
+            <uib-pagination boundary-links="true" total-items="totalUsers" ng-model="currentPage" items-per-page="usersPerPage" class="pagination-sm" max-size="maxSize" rotate="true"></uib-pagination>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+    <pre>Page: {{currentPage}} / {{totalUsers}}</pre>
+</div>
