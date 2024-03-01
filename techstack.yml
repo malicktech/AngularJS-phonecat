@@ -1,0 +1,389 @@
+repo_name: malicktech/AngularJS-phonecat
+report_id: ae63b3c9884f8caf2edc4225dc3cb637
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-01T22:43:21+00:00'
+requested_by: malicktech
+provider: github
+branch: master
+detected_tools_count: 28
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Bower
+  description: A package manager for the web
+  website_url: http://bower.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/847/66db62603f426a8fc6664081811be6d4.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 0.12.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat
+  detection_source: Repo Metadata
+- name: angular-ui-bootstrap
+  description: Native AngularJS
+  package_url: https://www.npmjs.com/angular-ui-bootstrap
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18273/default_75898a30f0389712301325cbd5e5019e01269891.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: bower
+  description: The browser package manager
+  package_url: https://www.npmjs.com/bower
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16205/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+  vulnerabilities:
+  - name: Symlink Arbitrary File Overwrite in bower
+    cve_id: CVE-2019-5484
+    cve_url: https://github.com/advisories/GHSA-p6mr-pxg4-68hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.8
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 0.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 0.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.2.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
+- name: tmp
+  description: Temporary file and directory creator
+  package_url: https://www.npmjs.com/tmp
+  version: 0.0.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: angular
+  description: Bower package for AngularJS
+  package_url: http://bower.io/angular
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: angular-animate
+  description: Bower package for the AngularJS animation module
+  package_url: http://bower.io/angular-animate
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: angular-bootstrap
+  description: Native AngularJS
+  package_url: http://bower.io/angular-bootstrap
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: angular-mocks
+  description: Angular-mocks.js bower repo
+  package_url: http://bower.io/angular-mocks
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: angular-resource
+  description: Angular-resource bower repo
+  package_url: http://bower.io/angular-resource
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: angular-route
+  description: Angular-route bower repo
+  package_url: http://bower.io/angular-route
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
+- name: bootstrap
+  description: The most popular front-end framework for developing responsive
+  package_url: http://bower.io/bootstrap
+  version: 3.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/malicktech/AngularJS-phonecat/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Malick
+  last_updated_on: 2016-03-14 17:30:38.000000000 Z
